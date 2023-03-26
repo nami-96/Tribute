@@ -1,0 +1,49 @@
+
+header {
+    border-style: dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    padding: 10px 25%;
+    line-height: 3.0;
+    text-align: left;
+}
+
+nav {
+    border-style: dashed;
+    width: 50%;
+    max-width: 300px;
+}
+
+h1 {
+    border-style: dashed;
+}
+
+h2 {
+    border-style: dashed;
+    text-align: center;
+}
+
+img {
+    float: right;
+    border-radius: 25px;
+    width: 50%;
+    height: 50%;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+nav > ul > li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
