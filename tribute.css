@@ -27,10 +27,24 @@ h2 {
 }
 
 img {
-    float: right;
     border-radius: 25px;
-    width: 50%;
-    height: 50%;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.container p {
+    margin: 0;
 }
 
 nav>ul {
