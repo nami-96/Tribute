@@ -1,8 +1,17 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
 header {
-    border-style: dashed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(153, 153, 161);
+    position:fixed;
+    top: 0;
+    width: 100%;
 }
 
 div {
@@ -12,13 +21,14 @@ div {
 }
 
 nav {
-    border-style: dashed;
     width: 50%;
     max-width: 300px;
 }
 
 h1 {
-    border-style: dashed;
+    padding-left: 10px;
+    color:aliceblue;
+
 }
 
 h2 {
@@ -53,10 +63,17 @@ nav>ul {
     flex-wrap: wrap;
     align-items: center;
     padding-inline-start: 0;
+    padding-right: 10px;
 }
 
 nav>ul>li {
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
+    color:aliceblue;
+    font-size: 20px;
 }
+
+main {
+    padding-top: 100px;
+  }
